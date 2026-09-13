@@ -1,0 +1,12 @@
+{
+  "synthetic": true,
+  "profile_id": "SYN-001",
+  "locale": "en",
+  "target": "fictional-study-preparation",
+  "documents": {
+    "education_summary": true,
+    "language_summary": false,
+    "target_note": true
+  }
+}
+
