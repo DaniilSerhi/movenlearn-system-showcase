@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Follow a fictional preparation enquiry from orientation to a review request. Each step shows what is stored and where a person still needs to decide."><title>MoveNLearn · Interactive case study</title><style>:root{--paper:#faf5eb;--ink:#222620;--muted:#596155;--accent:#b84419;--line:#cdd0c2;--panel:#fffef9;--contrast:#ffffff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 Arial,sans-serif}a{color:inherit;text-underline-offset:4px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,input:focus-visible+label{outline:3px solid var(--accent);outline-offset:5px}.wrap{max-width:1180px;margin:auto;padding:0 36px}header{display:flex;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}header a{text-decoration:none}header strong{font-size:21px;letter-spacing:-.7px}.tag{font:12px/1.5 monospace;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted)}.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:70px;padding:80px 0 65px;align-items:end}h1{font-size:clamp(42px,5.3vw,72px);line-height:1.04;letter-spacing:-3px;margin:20px 0 0;font-weight:600}h1 span{display:block}h2{font-size:34px;line-height:1.15;letter-spacing:-1px;margin:12px 0 18px}.intro{font-size:19px;line-height:1.6;margin:0}.flow{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:55px}.flow div{padding:18px 12px 18px 0}.flow small{display:block;color:var(--muted);font:12px monospace;margin-bottom:9px}.lab{padding:30px;background:var(--panel);border:1px solid var(--line)}.controls{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 35px}.controls label{padding:10px 16px;border:1px solid var(--line);cursor:pointer;font-size:14px;border-radius:2px}.controls input{position:absolute;opacity:0;width:1px;height:1px}.controls input:checked+label{background:var(--accent);color:var(--contrast);border-color:var(--accent)}.case{display:none}.lab:has(#case-0:checked) .case-0,.lab:has(#case-1:checked) .case-1,.lab:has(#case-2:checked) .case-2,.lab:has(#case-3:checked) .case-3{display:block}.result{display:grid;grid-template-columns:1.4fr 1fr;gap:45px;align-items:start}.result p{max-width:570px}.metric{border-left:2px solid var(--accent);padding:10px 0 10px 30px}.metric strong{display:block;font-size:43px;line-height:1.3;letter-spacing:-2px}.metric span{font:12px monospace;color:var(--muted);text-transform:uppercase;letter-spacing:1px}details{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}summary{cursor:pointer;font-size:15px}pre{max-height:420px;overflow:auto;font:12px/1.7 monospace;background:var(--paper);padding:20px;white-space:pre-wrap;overflow-wrap:anywhere}p a{font-size:15px}.boundary{font-size:14px;color:var(--muted);max-width:860px;margin:24px 0 50px}.evidence{display:flex;flex-wrap:wrap;gap:25px;padding:25px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}footer{font-size:13px;color:var(--muted);padding:28px 0 50px}footer p{max-width:820px}.serif h1,.serif h2{font-family:Georgia,serif;font-weight:400}.gallery{display:grid;gap:24px}.gallery img{width:100%;height:auto;border:1px solid var(--line)}.gallery figure{margin:0}.gallery figcaption{padding:12px 0;color:var(--muted);font-size:14px}.download{display:inline-block;background:var(--accent);color:var(--contrast);padding:12px 22px;text-decoration:none;font-size:15px;margin-top:24px}@media(max-width:700px){.wrap{padding:0 20px}.hero{grid-template-columns:1fr;gap:26px;padding:42px 0}h1{letter-spacing:-2px}.flow{grid-template-columns:repeat(2,1fr);margin-bottom:30px}.lab{padding:20px}.result{grid-template-columns:1fr;gap:15px}.metric{order:-1}.metric strong{font-size:34px}.controls{gap:8px}.controls label{flex:1 0 43%;text-align:center;padding:10px 7px}.evidence{gap:16px}h2{font-size:29px}header{font-size:14px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}html,body{overflow-x:clip}h1,h2,h3{overflow-wrap:anywhere;min-width:0}header a{white-space:nowrap}@media(max-width:375px){header a{font-size:12px}.controls label{font-size:12px;white-space:nowrap}}
+</style></head><body class="serif"><div class="wrap"><header><strong>MoveNLearn</strong><a href="https://github.com/DaniilSerhi/movenlearn-system-showcase">Source & verification ↗</a></header><main><section class="hero"><div><div class="tag">Product operations / intake & handoff</div><h1><span>A clear next step.</span><span>A traceable handoff.</span></h1></div><p class="intro">Follow a fictional preparation enquiry from orientation to a review request. Each step shows what is stored and where a person still needs to decide.</p></section><div class="flow"><div><small>01</small>Structured enquiry</div><div><small>02</small>Preparation check</div><div><small>03</small>Explicit review request</div><div><small>04</small>Human follow-up</div></div><section class="lab" aria-label="Synthetic scenario explorer"><div class="tag">Explore the behavior · synthetic fixtures</div><div class="controls" role="group" aria-label="Choose a recorded scenario"><input type="radio" name="scenario" id="case-0" checked><label for="case-0">Orientation</label><input type="radio" name="scenario" id="case-1" ><label for="case-1">Request review</label><input type="radio" name="scenario" id="case-2" ><label for="case-2">Repeat request</label><input type="radio" name="scenario" id="case-3" ><label for="case-3">Conflicting request</label></div><section class="case case-0" aria-label="Orientation"><div class="result"><div><h2>Orient without creating a record</h2><p>The preparation checklist identifies missing items. Without an explicit review request, no CRM-like record is created.</p><p><a href="case-0.json" download>Download this result →</a></p></div><div class="metric"><span>Without opt-in</span><strong>0 records</strong></div></div><details><summary>Inspect the generated JSON</summary><pre>{
+  &quot;orientation&quot;: {
+    &quot;notice&quot;: &quot;Synthetic demo data — no real customer information.&quot;,
+    &quot;rules_version&quot;: &quot;demo-1&quot;,
+    &quot;profile_id&quot;: &quot;SYN-001&quot;,
+    &quot;status&quot;: &quot;PREPARATION_INCOMPLETE&quot;,
+    &quot;missing_items&quot;: [
+      &quot;language_summary&quot;
+    ],
+    &quot;eligibility_decision&quot;: null,
+    &quot;boundary&quot;: &quot;Preliminary orientation is not an eligibility decision.&quot;,
+    &quot;next_step&quot;: &quot;Human review may be requested; institutional decisions are outside this demo.&quot;
+  },
+  &quot;record&quot;: null,
+  &quot;records&quot;: 0
+}</pre></details></section><section class="case case-1" aria-label="Request review"><div class="result"><div><h2>Create an explicit review task</h2><p>Opting into review creates one synthetic record with a stage, next action and a fictional follow-up date.</p><p><a href="case-1.json" download>Download this result →</a></p></div><div class="metric"><span>Review requested</span><strong>1 record</strong></div></div><details><summary>Inspect the generated JSON</summary><pre>{
+  &quot;record&quot;: {
+    &quot;notice&quot;: &quot;Synthetic demo data — no real customer information.&quot;,
+    &quot;record_id&quot;: &quot;CRM-DEMO-001&quot;,
+    &quot;profile&quot;: {
+      &quot;synthetic&quot;: true,
+      &quot;profile_id&quot;: &quot;SYN-001&quot;,
+      &quot;locale&quot;: &quot;en&quot;,
+      &quot;target&quot;: &quot;fictional-study-preparation&quot;,
+      &quot;documents&quot;: {
+        &quot;education_summary&quot;: true,
+        &quot;language_summary&quot;: false,
+        &quot;target_note&quot;: true
+      }
+    },
+    &quot;orientation&quot;: {
+      &quot;notice&quot;: &quot;Synthetic demo data — no real customer information.&quot;,
+      &quot;rules_version&quot;: &quot;demo-1&quot;,
+      &quot;profile_id&quot;: &quot;SYN-001&quot;,
+      &quot;status&quot;: &quot;PREPARATION_INCOMPLETE&quot;,
+      &quot;missing_items&quot;: [
+        &quot;language_summary&quot;
+      ],
+      &quot;eligibility_decision&quot;: null,
+      &quot;boundary&quot;: &quot;Preliminary orientation is not an eligibility decision.&quot;,
+      &quot;next_step&quot;: &quot;Human review may be requested; institutional decisions are outside this demo.&quot;
+    },
+    &quot;stage&quot;: &quot;REVIEW_REQUESTED&quot;,
+    &quot;next_action&quot;: &quot;Review preparation notes and identify questions for human follow-up&quot;,
+    &quot;next_action_date&quot;: &quot;2030-01-15&quot;,
+    &quot;date_scope&quot;: &quot;Synthetic scheduling value; not a service promise&quot;,
+    &quot;attribution&quot;: {
+      &quot;source&quot;: &quot;synthetic-showcase&quot;,
+      &quot;channel&quot;: &quot;local-demo&quot;
+    },
+    &quot;history&quot;: [
+      {
+        &quot;event&quot;: &quot;HUMAN_REVIEW_REQUESTED&quot;,
+        &quot;actor&quot;: &quot;synthetic-participant&quot;
+      }
+    ]
+  },
+  &quot;records&quot;: 1
+}</pre></details></section><section class="case case-2" aria-label="Repeat request"><div class="result"><div><h2>Reuse the existing handoff</h2><p>Submitting the same identifier and content returns the same record. The store still holds a single request.</p><p><a href="case-2.json" download>Download this result →</a></p></div><div class="metric"><span>After replay</span><strong>1 record</strong></div></div><details><summary>Inspect the generated JSON</summary><pre>{
+  &quot;identical_record&quot;: true,
+  &quot;records&quot;: 1,
+  &quot;stage&quot;: &quot;REVIEW_REQUESTED&quot;
+}</pre></details></section><section class="case case-3" aria-label="Conflicting request"><div class="result"><div><h2>Reject conflicting input</h2><p>Reusing the identifier with changed content raises an error. The existing request is preserved.</p><p><a href="case-3.json" download>Download this result →</a></p></div><div class="metric"><span>Request rejected</span><strong>Conflict</strong></div></div><details><summary>Inspect the generated JSON</summary><pre>{
+  &quot;error&quot;: &quot;Submission identifier conflicts with an existing request&quot;,
+  &quot;records&quot;: 1
+}</pre></details></section></section><p class="boundary">This synthetic, in-memory example demonstrates preparation checks and a handoff. It makes no admission or eligibility decision. It is separate from the public MoveNLearn website and production systems.</p><nav class="evidence" aria-label="Project evidence"><a href="https://github.com/DaniilSerhi/movenlearn-system-showcase/blob/main/demo/pdf/sample.pdf">Open sample PDF ↗</a><a href="https://github.com/DaniilSerhi/movenlearn-system-showcase/blob/main/demo/editorial/final-article.md">Article + evidence ledger ↗</a><a href="https://github.com/DaniilSerhi/movenlearn-system-showcase/blob/main/README.md#run-the-demo">Run the intake demo ↗</a></nav></main><footer><p>Daniil Serhieiev · Requirements, workflow design and review. Implementation with AI coding assistance.</p><p>The page displays recorded outputs from the public Python demo. No form data, tracking, model calls or external integrations.</p></footer></div></body></html>

@@ -1,0 +1,16 @@
+{
+  "orientation": {
+    "notice": "Synthetic demo data — no real customer information.",
+    "rules_version": "demo-1",
+    "profile_id": "SYN-001",
+    "status": "PREPARATION_INCOMPLETE",
+    "missing_items": [
+      "language_summary"
+    ],
+    "eligibility_decision": null,
+    "boundary": "Preliminary orientation is not an eligibility decision.",
+    "next_step": "Human review may be requested; institutional decisions are outside this demo."
+  },
+  "record": null,
+  "records": 0
+}

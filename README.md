@@ -1,5 +1,10 @@
 # MoveNLearn - System Showcase
 
+[![MoveNLearn: A clear next step. A traceable handoff.](showcase/cover.svg)](https://daniilserhi.github.io/movenlearn-system-showcase/)
+
+**[Open the interactive case study →](https://daniilserhi.github.io/movenlearn-system-showcase/)** · No installation or account. Choose a scenario, inspect the result, download the JSON.
+
+
 [![CI](https://github.com/DaniilSerhi/movenlearn-system-showcase/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DaniilSerhi/movenlearn-system-showcase/actions/workflows/ci.yml)
 
 MoveNLearn is a founder-led digital education project focused on the path to studying in Germany.

@@ -1,0 +1,44 @@
+{
+  "record": {
+    "notice": "Synthetic demo data — no real customer information.",
+    "record_id": "CRM-DEMO-001",
+    "profile": {
+      "synthetic": true,
+      "profile_id": "SYN-001",
+      "locale": "en",
+      "target": "fictional-study-preparation",
+      "documents": {
+        "education_summary": true,
+        "language_summary": false,
+        "target_note": true
+      }
+    },
+    "orientation": {
+      "notice": "Synthetic demo data — no real customer information.",
+      "rules_version": "demo-1",
+      "profile_id": "SYN-001",
+      "status": "PREPARATION_INCOMPLETE",
+      "missing_items": [
+        "language_summary"
+      ],
+      "eligibility_decision": null,
+      "boundary": "Preliminary orientation is not an eligibility decision.",
+      "next_step": "Human review may be requested; institutional decisions are outside this demo."
+    },
+    "stage": "REVIEW_REQUESTED",
+    "next_action": "Review preparation notes and identify questions for human follow-up",
+    "next_action_date": "2030-01-15",
+    "date_scope": "Synthetic scheduling value; not a service promise",
+    "attribution": {
+      "source": "synthetic-showcase",
+      "channel": "local-demo"
+    },
+    "history": [
+      {
+        "event": "HUMAN_REVIEW_REQUESTED",
+        "actor": "synthetic-participant"
+      }
+    ]
+  },
+  "records": 1
+}
