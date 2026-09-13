@@ -5,7 +5,7 @@ Validation performed during local preparation on 2026-09-13. These results conce
 | Check | Result | Boundary |
 | --- | --- | --- |
 | Intake runner | Passed; exact replay leaves one record | Single-process, in-memory example |
-| Unit tests | 12 passed | Seven intake tests and five publication-safety tests |
+| Unit tests | 14 passed | Seven intake tests, two CLI tests and five publication-safety tests |
 | PDF regeneration | Passed with installed Chromium headless shell | Renderer version may affect binary output |
 | Physical PDF | One A4 page; required sections, footer and embedded fonts present | Structural checks do not judge composition |
 | PDF inspection | No attachments or annotations; neutral title/creator metadata | Checked sample only |
@@ -21,6 +21,10 @@ The public product link was checked in a browser and resolved to the English sit
 Python 3.14.6 and Poppler 26.07.0 were used for the primary command checks. A separate temporary QA environment used Python 3.12 with Python-Markdown, Playwright, Pillow and pypdf for rendering and inspection. Those QA dependencies are not needed for the intake demo or unit tests.
 
 The PDF uses local licensed fonts. Publication checks validate their hashes against the committed manifest. Upstream font/license files are a narrowly identified attribution exception to the generic email scan; they are not customer data.
+
+## Continuous integration
+
+The [CI workflow](../.github/workflows/ci.yml) runs the unit tests and local link checker on push and pull request. Its README badge reports the actual main-branch run status. PDF and publication checks remain separate local commands.
 
 ## Commands
 

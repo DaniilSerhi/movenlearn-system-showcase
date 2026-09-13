@@ -1,5 +1,7 @@
 # MoveNLearn - System Showcase
 
+[![CI](https://github.com/DaniilSerhi/movenlearn-system-showcase/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DaniilSerhi/movenlearn-system-showcase/actions/workflows/ci.yml)
+
 MoveNLearn is a founder-led digital education project focused on the path to studying in Germany.
 
 This repository is a sanitized public case study of the internal workflows behind the project: structured intake and CRM handoff, research-backed editorial production, document generation, and quality controls.
@@ -9,6 +11,10 @@ It is not the production repository or a complete SaaS platform. It contains no 
 **Synthetic demo data — no real customer information.**
 
 ![Architecture: requirements guide research, editorial and intake; checks and human review control the outputs.](assets/architecture-overview.svg)
+
+**A checked document, produced from editable HTML:**
+
+[![Preview of the sample preparation checklist.](demo/pdf/preview.png)](demo/pdf/sample.pdf)
 
 ## Why this exists
 
@@ -45,8 +51,6 @@ The record includes a stage, next action, synthetic due date and initial history
 The document example starts with [structured content](demo/pdf/sample-content.json) and [design requirements](demo/pdf/design.md). A small builder produces editable HTML. Chrome renders it; Poppler checks the physical PDF and creates the preview.
 
 The design uses A4 pages, Unbounded and Source Serif 4, warm paper, a restrained orange accent, tables without vertical rules and reusable checklist, callout and action blocks. The example contains fictional preparation instructions, not current admissions advice.
-
-[![Preview of the sample preparation checklist.](demo/pdf/preview.png)](demo/pdf/sample.pdf)
 
 A machine can count pages and find required sections. A reviewer still needs to assess clipping, legibility and composition. [See the production workflow](docs/document-production.md).
 
@@ -108,7 +112,7 @@ python3 scripts/verify_public_repo.py
 python3 scripts/check_links.py
 ```
 
-The demo prints a result and checks the committed outputs. To deliberately regenerate them:
+The demo prints a readable report with preparation gaps, the human review handoff and replay checks. Use `--json` for a machine-readable summary. To deliberately regenerate the demo files:
 
 ```bash
 python3 scripts/run_admission.py --write
@@ -121,6 +125,8 @@ python3 scripts/build_pdf.py
 python3 scripts/render_pdf.py
 python3 scripts/verify_pdf.py
 ```
+
+The [CI workflow](.github/workflows/ci.yml) runs unit tests and local link checks on pushes to `main` and pull requests. PDF rendering and the full publication scan remain separate local checks.
 
 Open `demo/pdf/preview.png` after rendering. Review the image and extracted text before accepting any new document. [Validation notes](docs/validation.md) record the checks performed for this version.
 

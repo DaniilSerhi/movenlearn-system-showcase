@@ -4,7 +4,7 @@
 
 Run `python3 scripts/run_admission.py` from the repository root.
 
-The input is [sample_profile.json](sample_profile.json). The committed outputs are [preliminary_result.json](preliminary_result.json) and [crm_record.json](crm_record.json). The runner compares them with fresh results and prints a replay summary. Use `--write` to regenerate those two files.
+The input is [sample_profile.json](sample_profile.json). The committed outputs are [preliminary_result.json](preliminary_result.json) and [crm_record.json](crm_record.json). The runner compares them with fresh results and prints a readable report of preparation gaps, the review handoff and replay checks. Add `--json` for a machine-readable summary. Use `--write` to regenerate those two files.
 
 The fictional profile is missing a language summary. That produces `PREPARATION_INCOMPLETE`. A human review request still creates a record: the point is to surface the missing item for a person, not silently reject someone from a real institution.
 

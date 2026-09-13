@@ -109,7 +109,9 @@ def scan_blob(name, data, manifest):
             return scan_text(extract_pdf(data))
         if path.suffix == ".png":
             return scan_text(png_metadata(data))
-        if path.suffix not in TEXT_SUFFIXES and path.name not in ("LICENSE", ".gitignore"):
+        if (path.suffix not in TEXT_SUFFIXES
+                and path.name not in ("LICENSE", ".gitignore")
+                and path.as_posix() != ".github/workflows/ci.yml"):
             return ["unapproved file format"]
         text = data.decode("utf-8")
     except (UnicodeError, ValueError, subprocess.SubprocessError) as error:
