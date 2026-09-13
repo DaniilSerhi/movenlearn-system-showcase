@@ -36,5 +36,5 @@ python3 scripts/verify_public_repo.py
 
 Open the generated preview after rendering. Review prose and source support before accepting an editorial change. Re-run publication checks after the final commit because deleted historical content can still be pushed.
 
-No GitHub remote is configured in the prepared repository. Publication is a separate owner decision.
+Initial preparation was completed locally. The owner separately authorized creation of the public GitHub repository and publication of the prepared history.
 
