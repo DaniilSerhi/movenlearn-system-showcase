@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "source_scope": "Fictional fixture sources; no external factual authority",
+  "findings": [
+    {
+      "id": "E1",
+      "source": "sources/review-spec.md#preparation-notes",
+      "claim": "The demo checklist has three flags; it accepts no document uploads."
+    },
+    {
+      "id": "E2",
+      "source": "sources/review-spec.md#preliminary-result",
+      "claim": "Preparation completeness does not determine eligibility."
+    },
+    {
+      "id": "E3",
+      "source": "sources/review-spec.md#human-review",
+      "claim": "Only an explicit human review request creates a record."
+    },
+    {
+      "id": "E4",
+      "source": "sources/review-spec.md#repeated-requests",
+      "claim": "Exact replay returns one record in a single run."
+    }
+  ],
+  "rejected": [
+    {
+      "source": "sources/unsupported-outcome.md",
+      "reason": "No evidence for an institutional outcome guarantee"
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "notice": "Synthetic demo data — no real customer information.",
+  "mode": "constructed offline example; no live search performed",
+  "query": "fictional review service preparation notes and human review boundary",
+  "candidates": [
+    {
+      "id": "S1",
+      "path": "sources/review-spec.md",
+      "decision": "accept_for_demo_only",
+      "reason": "Authoritative specification for this fictional service only"
+    },
+    {
+      "id": "S2",
+      "path": "sources/unsupported-outcome.md",
+      "decision": "reject",
+      "reason": "Unsupported institutional outcome claim"
+    }
+  ]
+}
+
