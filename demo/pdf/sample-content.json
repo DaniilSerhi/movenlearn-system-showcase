@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "title": "Prepare a useful\nreview request",
+  "subtitle": "A fictional study-preparation checklist. Use it to see how structured content becomes a checked document.",
+  "sections": [
+    {
+      "title": "Gather the preparation notes",
+      "items": [
+        [
+          "Education summary",
+          "Use a fictional summary; no certificates or personal documents."
+        ],
+        [
+          "Language summary",
+          "Record whether the demo note is available. Missing is a valid state."
+        ],
+        [
+          "Target note",
+          "Use the fictional preparation target from the bundled specification."
+        ]
+      ]
+    },
+    {
+      "title": "Read the preliminary result",
+      "rows": [
+        [
+          "Missing preparation item",
+          "The result lists what is absent."
+        ],
+        [
+          "All checklist items present",
+          "The preparation list is complete."
+        ],
+        [
+          "Either result",
+          "Eligibility remains undecided."
+        ]
+      ]
+    },
+    {
+      "title": "Choose whether to request review",
+      "body": "The demo creates a CRM-like record only after an explicit review request. Repeating the same request returns the same record."
+    }
+  ],
+  "callout": "A complete checklist is not an admission decision. This example has no real university policy behind it.",
+  "cta": "Inspect the synthetic handoff",
+  "cta_detail": "Open demo/admission/crm_record.json in this repository.",
+  "notice": "Synthetic demo data — no real customer information."
+}
+

@@ -1,0 +1,18 @@
+{
+  "Unbounded.ttf": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/unbounded/Unbounded%5Bwght%5D.ttf",
+    "sha256": "323b511be380c8d474ef030686b71aedde501f8d9cd46da558b7c40454372c3f"
+  },
+  "Unbounded-OFL.txt": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/unbounded/OFL.txt",
+    "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3"
+  },
+  "SourceSerif4.ttf": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4%5Bopsz,wght%5D.ttf",
+    "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"
+  },
+  "SourceSerif4-OFL.txt": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/OFL.txt",
+    "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+  }
+}
