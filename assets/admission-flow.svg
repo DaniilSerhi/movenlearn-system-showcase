@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="450" viewBox="0 0 1120 450" role="img" aria-labelledby="title desc">
+<title id="title">Synthetic intake result and review handoff</title>
+<desc id="desc">SYN-001 lacks a language summary. The result is preparation incomplete with no eligibility decision. An explicit review request creates CRM-DEMO-001. Exact replay leaves one record.</desc>
+<rect width="1120" height="450" fill="#F5F3EF"/>
+<g font-family="Arial, sans-serif" fill="#23262C">
+<text x="40" y="40" font-size="13" letter-spacing="2" fill="#EA580C">SYNTHETIC DEMO / RUNNABLE PYTHON</text>
+<text x="40" y="82" font-family="Georgia, serif" font-size="32">One request, one human handoff</text>
+<text x="40" y="112" font-size="15" fill="#5D636E">Synthetic demo data — no real customer information.</text>
+<path d="M40 143H1080" stroke="#DAD5CC"/>
+<g font-size="14" fill="#EA580C"><text x="40" y="179">01 / VALIDATED INPUT</text><text x="395" y="179">02 / ORIENTATION</text><text x="750" y="179">03 / REVIEW REQUESTED</text></g>
+<g font-size="21" font-weight="bold"><text x="40" y="216">SYN-001</text><text x="395" y="216">Preparation incomplete</text><text x="750" y="216">CRM-DEMO-001</text></g>
+<g font-size="15" fill="#5D636E">
+<text x="40" y="250">Education summary: present</text><text x="40" y="279">Language summary: missing</text><text x="40" y="308">Target note: present</text>
+<text x="395" y="250">Missing: language summary</text><text x="395" y="279">Eligibility decision: none</text><text x="395" y="308">Human review is optional</text>
+<text x="750" y="250">Next: review preparation notes</text><text x="750" y="279">Synthetic due date: 2030-01-15</text><text x="750" y="308">Records after exact replay: 1</text>
+</g>
+<path d="M356 196V321M711 196V321" stroke="#DAD5CC"/>
+<path d="M40 350H1080" stroke="#EA580C" stroke-width="2"/>
+<text x="40" y="382" font-size="17" font-weight="bold">Without an explicit review request: no CRM record.</text>
+<text x="40" y="413" font-size="14" fill="#5D636E">Local in-memory demonstration. No email, messaging, database or institutional decision.</text>
+</g></svg>
+

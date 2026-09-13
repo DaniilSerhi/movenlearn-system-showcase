@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+<title id="title">MoveNLearn workflow architecture</title>
+<desc id="desc">Requirements guide research and intake. Research feeds editorial and document production. Intake produces orientation and optional human review. Automated checks and human review support all workflows.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#5D636E"/></marker></defs>
+<rect width="1120" height="650" fill="#F5F3EF"/>
+<g font-family="Arial, sans-serif" fill="#23262C">
+<text x="44" y="45" font-size="13" letter-spacing="2" fill="#EA580C">MOVENLEARN / OPERATING MODEL</text>
+<text x="44" y="87" font-family="Georgia, serif" font-size="32">From requirements to reviewed outputs</text>
+<text x="44" y="117" font-size="15" fill="#5D636E">A conceptual map. The public examples run locally with fictional inputs.</text>
+<rect x="44" y="147" width="1032" height="69" fill="none" stroke="#23262C"/>
+<text x="65" y="178" font-size="19" font-weight="bold">Requirements &amp; accepted sources</text>
+<text x="65" y="201" font-size="14" fill="#5D636E">Define the task, allowed claims and decisions that need a person.</text>
+<g fill="none" stroke="#5D636E" stroke-width="1.5" marker-end="url(#arrow)">
+<path d="M310 216V257"/><path d="M828 216V257"/>
+<path d="M310 321V354"/><path d="M310 418V451"/>
+<path d="M828 321V354"/><path d="M828 418V451"/>
+</g>
+<g fill="none" stroke="#DAD5CC">
+<rect x="44" y="259" width="502" height="62"/><rect x="574" y="259" width="502" height="62"/>
+<rect x="44" y="356" width="502" height="62"/><rect x="574" y="356" width="502" height="62"/>
+<rect x="44" y="453" width="502" height="62"/><rect x="574" y="453" width="502" height="62"/>
+</g>
+<g font-size="18" font-weight="bold">
+<text x="65" y="285">Research</text><text x="595" y="285">Structured intake</text>
+<text x="65" y="382">Editorial production</text><text x="595" y="382">Preliminary orientation</text>
+<text x="65" y="479">Documents &amp; PDF</text><text x="595" y="479">Optional CRM handoff</text>
+</g>
+<g font-size="14" fill="#5D636E">
+<text x="65" y="307">Discovery → reading → evidence handoff</text>
+<text x="595" y="307">Validate a bounded synthetic profile</text>
+<text x="65" y="404">Claims → brief → article → contextual next step</text>
+<text x="595" y="404">Preparation gaps; no eligibility decision</text>
+<text x="65" y="501">Content → editable HTML → render → preview</text>
+<text x="595" y="501">Explicit request → stage → next action → person</text>
+</g>
+<path d="M44 546H1076" stroke="#EA580C" stroke-width="2"/>
+<text x="44" y="575" font-size="17" font-weight="bold">Checks and review apply throughout</text>
+<text x="44" y="601" font-size="14" fill="#5D636E">Deterministic tests · source review · PDF structure · visual inspection · human acceptance</text>
+<text x="44" y="628" font-size="12" fill="#5D636E">Workflow design and AI-assisted implementation. No autonomous institutional decisions.</text>
+</g></svg>
+

@@ -114,7 +114,7 @@ The demo prints a result and checks the committed outputs. To deliberately regen
 python3 scripts/run_admission.py --write
 ```
 
-PDF generation additionally needs Chrome/Chromium and Poppler's `pdfinfo`, `pdftotext`, `pdftoppm` and `pdffonts` commands. Fonts are included under their upstream licenses, so rendering does not fetch them.
+PDF generation additionally needs Chrome/Chromium and Poppler's `pdfinfo`, `pdftotext`, `pdftoppm` and `pdffonts` commands. The publication verifier also needs Poppler, including its `pdfdetach` command. Fonts are included under their upstream licenses, so rendering does not fetch them.
 
 ```bash
 python3 scripts/build_pdf.py

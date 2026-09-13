@@ -13,16 +13,17 @@ The showcase distinguishes upstream tools from the workflow built around them.
 | Chrome / Chromium | HTML-to-PDF rendering | Page design and render command | Required for PDF regeneration |
 | Poppler | PDF inspection and rasterization | Structural acceptance checks | Required for PDF verification |
 | Unbounded / Source Serif 4 | Upstream font families | Approved typography pairing | Font binaries and upstream licenses |
+| Playwright / Python-Markdown / Pillow / pypdf | Local rendering and artifact inspection | QA during preparation | No runtime dependency |
 | AI coding agents | Code and writing assistance | Requirements, iteration and validation | No model or agent runtime |
 
 Upstream links:
 
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-- [Exa](https://exa.ai), [mcporter](https://github.com/steipete/mcporter), [Jina Reader](https://jina.ai/reader/)
+- [Exa](https://exa.ai), [mcporter](https://github.com/openclaw/mcporter), [Jina Reader](https://jina.ai/reader/)
 - [Python](https://www.python.org), [Chrome](https://www.google.com/chrome/), [Chromium](https://www.chromium.org), [Poppler](https://poppler.freedesktop.org)
 - [Unbounded font source](https://github.com/google/fonts/tree/main/ofl/unbounded)
 - [Source Serif 4 font source](https://github.com/google/fonts/tree/main/ofl/sourceserif4)
-- [Codex](https://openai.com/codex/)
+- [Codex](https://github.com/openai/codex)
 
 Public upstream URLs and redistribution rights for the local Hallmark/voice installations were not established for this showcase. Their source is therefore not bundled, and no author is inferred.
 
